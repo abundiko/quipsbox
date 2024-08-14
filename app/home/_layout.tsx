@@ -4,17 +4,19 @@ import AppBar from "@/components/app/AppBar";
 export default function _layout() {
   return (
     <Stack>
-      {
-        ['login', 'register'].map((name) => (
+      
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      {/* {
+        ['index'].map((name) => (
           <Stack.Screen
             key={name}
             name={name}
             options={{
-              header: (props) => <AppBar {...props} />,
+              headerShown: false,
             }}
           />
         ))
-      }
+      } */}
     </Stack>
   );
 }

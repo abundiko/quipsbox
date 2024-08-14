@@ -1,13 +1,22 @@
-import { View, Text, TextInput, Pressable } from "react-native";
+import { View } from "react-native";
 // import React from "react";
 import { s } from "../styles";
-import { useFormSubmit } from "@/hooks";
 import { AppInput, AppInputPropsWithName } from "../ui/AppInput";
 import FormButton from "../ui/FormButton";
 import { useLoginAction } from "@/actions";
 import FormMessage from "../ui/FormMessage";
 
   const fields:AppInputPropsWithName[] = [
+    {
+      name: "fullname",
+      label: "Full Name:",
+      placeholder: "Person Someone",
+    },
+    {
+      name: "username",
+      label: "User Name:",
+      placeholder: "Person123",
+    },
     {
       name: "email",
       label: "Email:",
@@ -22,7 +31,7 @@ import FormMessage from "../ui/FormMessage";
     },
   ];
   
-export default function LoginForm() {
+export default function RegisterForm() {
   const { inputProps, formButtonProps, res } = useLoginAction()
 
   return (
