@@ -17,7 +17,7 @@ export default function TopBar() {
             </View>
         </Link>
       <Text className='w-fit text-lg font-bold text-center'>QuipsBox</Text>
-        <Link href={paths.profile}>
+        <Link href={paths.notifications}>
             <View className='h-10 w-10 rounded-full items-center justify-center border border-neutral-200 bg-neutral-300'>
                 <FontAwesome name='bell' size={20} className='stroke-red-500' />
             </View>

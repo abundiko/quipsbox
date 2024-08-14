@@ -2,7 +2,7 @@
   "expo": {
     "name": "quips-bok",
     "slug": "quips-bok",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -40,6 +40,12 @@
       "eas": {
         "projectId": "bc44ee7f-5084-4cad-8a4a-06e186797cd2"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bc44ee7f-5084-4cad-8a4a-06e186797cd2"
     }
   }
 }

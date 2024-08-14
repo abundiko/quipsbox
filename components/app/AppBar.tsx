@@ -11,7 +11,7 @@ export default function AppBar(props: any) {
     <View style={{
       height: 80 + (sb.currentHeight ?? 12),
       paddingTop: (sb.currentHeight ?? 12)
-    }} className=" bg-neutral-200 flex-row justify-between items-center px-4 gap-4">
+    }} className=" bg-[#fff] flex-row justify-between items-center px-4 gap-4">
       <StatusBar style="dark" />
       <Pressable onPress={()=>n.goBack()}>
         <Feather name="chevron-left" size={24} color="black" />

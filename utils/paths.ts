@@ -5,4 +5,6 @@ export const paths = {
     signup: "/register",
 
     profile: "/home/profile",
+    notifications: "/home/notifications",
+    rooms: "/home/rooms",
 } as const;
