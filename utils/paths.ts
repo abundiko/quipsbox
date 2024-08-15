@@ -7,4 +7,8 @@ export const paths = {
     profile: "/home/profile",
     notifications: "/home/notifications",
     rooms: "/home/rooms",
+
+    // profile
+    appSettings: "/profile/app-settings",
+    profileSettings: "/profile/profile-settings",
 } as const;

@@ -6,6 +6,7 @@ export default function _layout() {
     <Stack>
       
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      {/* <Stack.Screen name="profile" options={{ headerShown: false }} /> */}
       {/* {
         ['index'].map((name) => (
           <Stack.Screen

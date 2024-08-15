@@ -5,7 +5,7 @@ export default function _layout() {
   return (
     <Stack>
       {
-        ['login', 'register'].map((name) => (
+        ['index', 'login', 'register'].map((name) => (
           <Stack.Screen
             key={name}
             name={name}

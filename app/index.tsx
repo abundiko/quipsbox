@@ -1,4 +1,5 @@
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import { ImageBackground, StyleSheet,  } from "react-native";
+import {Text, TextLight, View} from '@/components/Themed'
 // import React from 'react'
 import { StatusBar } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
@@ -23,10 +24,10 @@ export default function index() {
               <Text className="text-4xl font-semibold">
                 Where people of like and opposing passion colide
               </Text>
-              <Text className="text-sm text-neutral-500 leading-tight">
+              <TextLight className="text-sm text-neutral-500 leading-tight">
                 welcome to Quipsbox, here we do all kinds of stuff. from this to
                 that and the other we got u covered
-              </Text>
+              </TextLight>
             </View>
             <View className="flex-row gap-4">
               <Link className={`${s.btn.primaryClass} flex-1`} href={paths.home}>

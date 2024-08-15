@@ -1,4 +1,5 @@
-import { View, Text, ScrollView } from 'react-native'
+import { View, Text} from '@/components/Themed'
+import {ScrollView } from 'react-native'
 import React from 'react'
 import TopBar from '@/components/home/TopBar'
 import { StatusBar } from "expo-status-bar";
